@@ -1,12 +1,124 @@
+/***********************************************
+GENEREAL
+*************************************************/
 a{
-	text-decoration: none;
+text-decoration: none;
+
+}
+nav ul{
+	
+	list-style-type: none;
 }
 #wrapper{
 	max-width: 940px;
 	margin:0 auto;
 	padding: 0 5%;
 }
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/***********************************************
+HEADING
+*************************************************/
 #logo{
 	text-align: center;
 	margin: 0;
 }
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+
+h2{
+	
+    margin: -5px 0 0;
+    font-size: 0.75em;
+    font-weight: normal;
+    
+
+}
+
+
+
+/***********************************************
+NAVIGATIONS
+*************************************************/
+
+
+nav{
+    text-align: center;
+    padding: 10px 0;
+    margin:20px 0 0; 
+
+}
+
+
+
+/*Nav backgrounf on mobile*/
+nav{
+	background: #599a68;
+}
+
+
+/*nav link*/
+nav a,nav a:visited{
+	color:#fff;
+}
+
+
+/*Selected nav link*/
+nav a.selected ,nav a:hover{
+	color:#32673f;
+}
+
+
+/***********************************************
+COLORS
+*************************************************/
+
+/*Site Body*/
+body{
+	background-color: #fff;
+	color: #999;
+}
+
+
+/*Green header*/
+header{
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+
+/*logo text*/
+h1,h2{
+	color: #fff;
+}
+
+
+a{
+	color: #6ab47b;
+}
+
+
+
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color:#ccc;
+}
+
+
+

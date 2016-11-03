@@ -23,7 +23,9 @@ img{
 	max-width: 100%
 }
 
-
+h3{
+	margin: 0 0 1em 0;
+}
 
 /***********************************************
 HEADING
@@ -84,9 +86,9 @@ nav{
 }
 
 nav ul{
-	list-style-type: none;
-	margin: 0 10px;
-	padding: 0
+		list-style-type: none;
+		margin: 0 10px;
+		padding: 0
 
 }
 
@@ -117,7 +119,7 @@ footer{
 	font-size: 0.75em;
 	text-align: center;
 	padding-top: 50px;
-	color:#ccc;
+	color:#000;
 	clear:both;
 }
 
@@ -185,5 +187,47 @@ a{
 }
 
 
+/***********************************************
+About
+*************************************************/
+.profile{
+	height: 250px;
+	width: 250px;
+	display: block;
+	max-width: 150px;
+	margin:0 auto 30px;
+	border-radius: 50%;
+}
+
+/***********************************************
+Contact
+*************************************************/
+
+.contact-info{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size:20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px; 
+}
+
+.contact-info li.phone a{
+	background-image: url('../img/phone.png');
+}
 
 
+.contact-info li.mail a{
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+}

@@ -191,12 +191,10 @@ a{
 About
 *************************************************/
 .profile{
-	height: 250px;
-	width: 250px;
 	display: block;
 	max-width: 150px;
 	margin:0 auto 30px;
-	border-radius: 50%;
+	border-radius: 100%;
 }
 
 /***********************************************
